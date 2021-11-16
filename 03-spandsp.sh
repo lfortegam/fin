@@ -1,7 +1,7 @@
 #!/bin/bash
-cp 02-1-spandsp.tar.gz /usr/local/src/
+cp 03-1-spandsp.zip /usr/local/src/
 cd /usr/local/src
-tar -xzvf 02-1-spandsp.tar.gz
+unzip 03-1-spandsp.zip
 chmod -R 755 spandsp
 cd /usr/local/src/spandsp
 ./bootstrap.sh 
